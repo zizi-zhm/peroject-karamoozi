@@ -5,26 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="صفحه شخصی و رزومه زینب زحمتی">
     <title>صفحه شخصی زینب زحمتی</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>زینب زحمتی</h1>
+        <div class="header-bar">
+            <h1>زینب زحمتی</h1>
+            <input class="menu-checkbox" type="checkbox" id="menu-toggle">
+            <label class="menu-button" for="menu-toggle" aria-label="باز و بسته کردن منو"><span></span><span></span><span></span></label>
+            <nav aria-label="منوی اصلی">
+                <ul>
+                    <li><a href="#about">درباره من</a></li>
+                    <li><a href="#skills">مهارت‌ها</a></li>
+                    <li><a href="#education">تحصیلات</a></li>
+                    <li><a href="#projects">پروژه‌ها</a></li>
+                    <li><a href="#experience">تجربه‌ها</a></li>
+                    <li><a href="#contact">ارتباط با من</a></li>
+                </ul>
+            </nav>
+        </div>
 
         <figure>
             <img src="profile.jpg" alt="عکس زینب زحمتی" width="200" height="200">
             <figcaption>دانشجوی مهندسی کامپیوتر</figcaption>
         </figure>
-
-        <nav aria-label="منوی اصلی">
-            <ul>
-                <li><a href="#about">درباره من</a></li>
-                <li><a href="#skills">مهارت‌ها</a></li>
-                <li><a href="#education">تحصیلات</a></li>
-                <li><a href="#projects">پروژه‌ها</a></li>
-                <li><a href="#experience">تجربه‌ها</a></li>
-                <li><a href="#contact">ارتباط با من</a></li>
-            </ul>
-        </nav>
     </header>
 
     <main>
@@ -61,7 +65,6 @@
             <h2>پروژه‌ها</h2>
 
             <article>
-         
                 <p><a href="#">مشاهده پروژه</a></p>
             </article>
 
